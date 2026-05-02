@@ -1,15 +1,14 @@
 using System.Text;
 using System.Text.Json;
-// using AuthenticationService;
-// using AuthenticationService.Interfaces;
+using AuthenticationService;
+using AuthenticationService.Interfaces;
 // using AuthenticationService.Seeders;
-// using AuthenticationService.Services;
+using AuthenticationService.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 
 var builder = WebApplication.CreateBuilder(args);
-
 Console.WriteLine(builder.Configuration.GetConnectionString("DefaultConnection"));
 
 builder.Services
@@ -21,9 +20,9 @@ builder.Services
     });
 
 builder.Services.AddHttpClient();
-// AuthConfiguration.ConfigureServices(builder.Services, builder.Configuration);
+AuthConfiguration.ConfigureServices(builder.Services, builder.Configuration);
 // builder.Services.AddScoped<AdminSeeder>();
-// builder.Services.AddScoped<IAuth, AuthService>();
+builder.Services.AddScoped<IAuth, AuthService>();
 
 var jwtKey = builder.Configuration["Jwt:Key"] ?? Environment.GetEnvironmentVariable("Jwt__Key")!;
 var jwtIssuer = builder.Configuration["Jwt:Issuer"] ?? Environment.GetEnvironmentVariable("Jwt__Issuer");
