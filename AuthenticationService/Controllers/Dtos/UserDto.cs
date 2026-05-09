@@ -1,9 +1,9 @@
 using AuthenticationService.Enums;
 
-namespace AuthenticationService.Models;
+namespace AuthenticationService.Controllers.Dtos;
 
-// Bruger entitet
-public class User
+// DTO for bruger data
+public class UserDto
 {
     public int Id { get; private set; }
     public required string Name { get; set; }
@@ -13,5 +13,4 @@ public class User
     public required int Age { get; set; }
     public required string Phone { get; set; }
     public UserRoles Role { get; private set; }
-
 }
