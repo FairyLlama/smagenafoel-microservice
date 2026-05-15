@@ -1,0 +1,43 @@
+== APP - TicketOrderService == info: Microsoft.Hosting.Lifetime[14]
+== APP - TicketOrderService ==       Now listening on: http://0.0.0.0:8083
+== APP - TicketOrderService == info: Microsoft.Hosting.Lifetime[0]
+== APP - TicketOrderService ==       Application started. Press Ctrl+C to shut down.
+== APP - TicketOrderService == info: Microsoft.Hosting.Lifetime[0]
+== APP - TicketOrderService ==       Hosting environment: Production
+== APP - TicketOrderService == info: Microsoft.Hosting.Lifetime[0]
+== APP - TicketOrderService ==       Content root path: C:\Users\Fairy LIama\.code\smagenafoel-microservice\PubSubService\src\TicketOrderService
+== APP - TicketOrderService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - TicketOrderService ==       Request starting HTTP/1.1 GET http://127.0.0.1:8083/dapr/config - application/json -
+== APP - TicketOrderService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - TicketOrderService ==       Request finished HTTP/1.1 GET http://127.0.0.1:8083/dapr/config - 404 0 - 73.9204ms
+== APP - TicketOrderService == info: Microsoft.AspNetCore.Hosting.Diagnostics[16]
+== APP - TicketOrderService ==       Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://127.0.0.1:8083/dapr/config, Response status code: 404
+== APP - TicketOrderService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - TicketOrderService ==       Request starting HTTP/1.1 GET http://127.0.0.1:8083/dapr/subscribe - application/json -
+== APP - TicketOrderService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - TicketOrderService ==       Executing endpoint 'HTTP: GET /dapr/subscribe'
+== APP - TicketOrderService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - TicketOrderService ==       Executed endpoint 'HTTP: GET /dapr/subscribe'
+== APP - TicketOrderService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - TicketOrderService ==       Request finished HTTP/1.1 GET http://127.0.0.1:8083/dapr/subscribe - 200 - application/json;+charset=utf-8 4.2514ms
+== APP - TicketOrderService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - TicketOrderService ==       Request starting HTTP/1.1 POST http://0.0.0.0:8083/orders - application/json 85
+== APP - TicketOrderService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - TicketOrderService ==       Request finished HTTP/1.1 POST http://0.0.0.0:8083/orders - 404 0 - 0.5816ms
+== APP - TicketOrderService == info: Microsoft.AspNetCore.Hosting.Diagnostics[16]
+== APP - TicketOrderService ==       Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://0.0.0.0:8083/orders, Response status code: 404
+== APP - TicketOrderService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - TicketOrderService ==       Request starting HTTP/1.1 POST http://0.0.0.0:8083/tickets - application/json 85
+== APP - TicketOrderService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - TicketOrderService ==       Executing endpoint 'HTTP: POST /tickets'
+== APP - TicketOrderService == Ticket 5 created successfully
+== APP - TicketOrderService == info: Microsoft.AspNetCore.Http.Result.AcceptedResult[1]
+== APP - TicketOrderService ==       Setting HTTP status code 202.
+== APP - TicketOrderService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - TicketOrderService ==       Executed endpoint 'HTTP: POST /tickets'
+== APP - TicketOrderService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - TicketOrderService ==       Request finished HTTP/1.1 POST http://0.0.0.0:8083/tickets - 202 0 - 193.9641ms
+== APP - TicketOrderService == info: Microsoft.Hosting.Lifetime[0]
+== APP - TicketOrderService ==       Application is shutting down...
+
+termination signal received: shutting down

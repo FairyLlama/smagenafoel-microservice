@@ -1,0 +1,27 @@
+== APP - OrderService == Using launch settings from C:\Users\Fairy LIama\.code\smagenafoel-microservice\PubSubService\src\OrderService\Properties\launchSettings.json...
+== APP - OrderService == info: Microsoft.Hosting.Lifetime[14]
+== APP - OrderService ==       Now listening on: http://0.0.0.0:8080
+== APP - OrderService == info: Microsoft.Hosting.Lifetime[0]
+== APP - OrderService ==       Application started. Press Ctrl+C to shut down.
+== APP - OrderService == info: Microsoft.Hosting.Lifetime[0]
+== APP - OrderService ==       Hosting environment: Development
+== APP - OrderService == info: Microsoft.Hosting.Lifetime[0]
+== APP - OrderService ==       Content root path: C:\Users\Fairy LIama\.code\smagenafoel-microservice\PubSubService\src\OrderService
+== APP - OrderService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - OrderService ==       Request starting HTTP/1.1 GET http://127.0.0.1:8080/dapr/config - application/json -
+== APP - OrderService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - OrderService ==       Request finished HTTP/1.1 GET http://127.0.0.1:8080/dapr/config - 404 0 - 94.2889ms
+== APP - OrderService == info: Microsoft.AspNetCore.Hosting.Diagnostics[16]
+== APP - OrderService ==       Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://127.0.0.1:8080/dapr/config, Response status code: 404
+== APP - OrderService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - OrderService ==       Request starting HTTP/1.1 GET http://127.0.0.1:8080/dapr/subscribe - application/json -
+== APP - OrderService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - OrderService ==       Executing endpoint 'HTTP: GET /dapr/subscribe'
+== APP - OrderService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - OrderService ==       Executed endpoint 'HTTP: GET /dapr/subscribe'
+== APP - OrderService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - OrderService ==       Request finished HTTP/1.1 GET http://127.0.0.1:8080/dapr/subscribe - 200 - application/json;+charset=utf-8 3.7847ms
+== APP - OrderService == info: Microsoft.Hosting.Lifetime[0]
+== APP - OrderService ==       Application is shutting down...
+
+termination signal received: shutting down

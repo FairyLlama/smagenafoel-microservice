@@ -1,0 +1,85 @@
+Starting Dapr with id OrderService. HTTP Port: 63752. gRPC Port: 63753
+Updating metadata for cliPID: 25848
+time="2026-05-14T15:51:41.8680665+02:00" level=info msg="Starting Dapr Runtime -- version 1.17.6 -- commit 730072425935a8af961701abcbecc4e4a79039fa" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime type=log ver=1.17.6
+time="2026-05-14T15:51:41.8685844+02:00" level=info msg="Log level set to: info" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime type=log ver=1.17.6
+time="2026-05-14T15:51:41.8685844+02:00" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime.security type=log ver=1.17.6
+time="2026-05-14T15:51:41.869095+02:00" level=info msg="metric spec: {\"enabled\":true}" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime.diagnostics type=log ver=1.17.6
+time="2026-05-14T15:51:41.869095+02:00" level=info msg="Using default latency distribution buckets: [1 2 3 4 5 6 8 10 13 16 20 25 30 40 50 65 80 100 130 160 200 250 300 400 500 650 800 1000 2000 5000 10000 20000 50000 100000]" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime.diagnostics type=log ver=1.17.6
+time="2026-05-14T15:51:41.869095+02:00" level=warning msg="The default value for 'spec.metric.http.increasedCardinality' will change to 'false' in Dapr 1.15 or later" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime.diagnostics type=log ver=1.17.6
+time="2026-05-14T15:51:41.8701354+02:00" level=info msg="standalone mode configured" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime type=log ver=1.17.6
+time="2026-05-14T15:51:41.8701354+02:00" level=info msg="app id: OrderService" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime type=log ver=1.17.6
+time="2026-05-14T15:51:41.8701354+02:00" level=info msg="Dapr trace sampler initialized: ParentBased{root:AlwaysOnSampler,remoteParentSampled:AlwaysOnSampler,remoteParentNotSampled:AlwaysOffSampler,localParentSampled:AlwaysOnSampler,localParentNotSampled:AlwaysOffSampler}" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime type=log ver=1.17.6
+time="2026-05-14T15:51:41.8711664+02:00" level=info msg="metrics server started on 0.0.0.0:63754/" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime type=log ver=1.17.6
+time="2026-05-14T15:51:41.8888047+02:00" level=info msg="local service entry announced: OrderService -> 127.0.0.1:63755" app_id=OrderService component="nr (mdns/v1)" instance=DESKTOP-B26FMRA scope=dapr.contrib type=log ver=1.17.6
+time="2026-05-14T15:51:41.8888047+02:00" level=info msg="Initialized name resolution to mdns" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime type=log ver=1.17.6
+time="2026-05-14T15:51:41.8888047+02:00" level=info msg="Loading components…" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime type=log ver=1.17.6
+time="2026-05-14T15:51:41.8941894+02:00" level=info msg="Component loaded: pubsub (pubsub.redis/v1)" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime.processor type=log ver=1.17.6
+time="2026-05-14T15:51:41.9004902+02:00" level=info msg="Component loaded: statestore (state.redis/v1)" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime.processor type=log ver=1.17.6
+time="2026-05-14T15:51:41.9004902+02:00" level=info msg="Waiting for all outstanding components to be processed…" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime type=log ver=1.17.6
+time="2026-05-14T15:51:41.9015144+02:00" level=info msg="successful init for output binding (storage (bindings.localstorage/v1))" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime.processor.binding type=log ver=1.17.6
+time="2026-05-14T15:51:41.9015144+02:00" level=info msg="Component loaded: storage (bindings.localstorage/v1)" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime.processor type=log ver=1.17.6
+time="2026-05-14T15:51:41.9015144+02:00" level=info msg="All outstanding components processed" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime type=log ver=1.17.6
+time="2026-05-14T15:51:41.9015144+02:00" level=info msg="Loading endpoints…" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime type=log ver=1.17.6
+time="2026-05-14T15:51:41.9020375+02:00" level=info msg="Waiting for all outstanding http endpoints to be processed…" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime type=log ver=1.17.6
+time="2026-05-14T15:51:41.9020375+02:00" level=info msg="All outstanding http endpoints processed" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime type=log ver=1.17.6
+time="2026-05-14T15:51:41.9020375+02:00" level=info msg="Loading Declarative Subscriptions…" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime type=log ver=1.17.6
+time="2026-05-14T15:51:41.9035793+02:00" level=info msg="gRPC server listening on TCP address: :63753" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime.grpc.api type=log ver=1.17.6
+time="2026-05-14T15:51:41.9035793+02:00" level=info msg="Enabled gRPC tracing middleware" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime.grpc.api type=log ver=1.17.6
+time="2026-05-14T15:51:41.9035793+02:00" level=info msg="Enabled gRPC metrics middleware" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime.grpc.api type=log ver=1.17.6
+time="2026-05-14T15:51:41.9035793+02:00" level=info msg="Registering workflow engine for gRPC endpoint: [::]:63753" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime.grpc.api type=log ver=1.17.6
+time="2026-05-14T15:51:41.9035793+02:00" level=info msg="API gRPC server is running on port 63753" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime type=log ver=1.17.6
+time="2026-05-14T15:51:41.9035793+02:00" level=warning msg="The default value for 'spec.metric.http.increasedCardinality' will change to 'false' in Dapr 1.15 or later" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime.http type=log ver=1.17.6
+time="2026-05-14T15:51:41.9035793+02:00" level=info msg="Enabled max body size HTTP middleware with size 4194304 bytes" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime.http type=log ver=1.17.6
+time="2026-05-14T15:51:41.9035793+02:00" level=info msg="Enabled tracing HTTP middleware" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime.http type=log ver=1.17.6
+time="2026-05-14T15:51:41.9035793+02:00" level=info msg="Enabled metrics HTTP middleware" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime.http type=log ver=1.17.6
+time="2026-05-14T15:51:41.9040948+02:00" level=info msg="HTTP server listening on TCP address: :63752" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime.http type=log ver=1.17.6
+time="2026-05-14T15:51:41.9040948+02:00" level=info msg="HTTP server is running on port 63752" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime type=log ver=1.17.6
+time="2026-05-14T15:51:41.9040948+02:00" level=info msg="The request body size parameter is: 4194304 bytes" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime type=log ver=1.17.6
+time="2026-05-14T15:51:41.9040948+02:00" level=info msg="gRPC server listening on TCP address: :63755" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime.grpc.internal type=log ver=1.17.6
+time="2026-05-14T15:51:41.9040948+02:00" level=info msg="Enabled gRPC tracing middleware" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime.grpc.internal type=log ver=1.17.6
+time="2026-05-14T15:51:41.9040948+02:00" level=info msg="Enabled gRPC metrics middleware" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime.grpc.internal type=log ver=1.17.6
+time="2026-05-14T15:51:41.9040948+02:00" level=info msg="Internal gRPC server is running on :63755" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime type=log ver=1.17.6
+time="2026-05-14T15:51:41.9040948+02:00" level=info msg="application protocol: http. waiting on port 8080.  This will block until the app is listening on that port." app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime type=log ver=1.17.6
+time="2026-05-14T15:51:41.9199325+02:00" level=info msg="Connected and received scheduler hosts addresses: [localhost:6060]" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime.scheduler.watchhosts type=log ver=1.17.6
+time="2026-05-14T15:51:41.9199325+02:00" level=info msg="Scheduler client initialized for address: localhost:6060" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime.scheduler.clients type=log ver=1.17.6
+time="2026-05-14T15:51:41.9199325+02:00" level=info msg="Scheduler clients initialized" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime.scheduler.clients type=log ver=1.17.6
+Updating metadata for app command: dotnet run
+Updating metadata for appPID: 52000
+You're up and running! Dapr logs will appear here.
+
+time="2026-05-14T15:51:43.9157901+02:00" level=info msg="application discovered on port 8080" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime type=log ver=1.17.6
+time="2026-05-14T15:51:43.9157901+02:00" level=info msg="actors: state store is not configured - this is okay for clients but services with hosted actors will fail to initialize!" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime type=log ver=1.17.6
+time="2026-05-14T15:51:43.916305+02:00" level=info msg="Actor state store not configured - actor hosting disabled, but invocation enabled" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime.actor type=log ver=1.17.6
+time="2026-05-14T15:51:43.916305+02:00" level=info msg="Using Scheduler service for reminders." app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime.actor.reminders.scheduler type=log ver=1.17.6
+time="2026-05-14T15:51:43.916305+02:00" level=info msg="Actor runtime started" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime.actor type=log ver=1.17.6
+time="2026-05-14T15:51:43.916305+02:00" level=info msg="worker started with backend dapr.actors/v1" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.wfengine.durabletask.backend type=log ver=1.17.6
+time="2026-05-14T15:51:43.916305+02:00" level=warning msg="Graceful shutdown timeout is infinite, will wait indefinitely to shutdown" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime.actor type=log ver=1.17.6
+time="2026-05-14T15:51:43.916305+02:00" level=info msg="Workflow engine started" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime.wfengine type=log ver=1.17.6
+time="2026-05-14T15:51:43.916305+02:00" level=info msg="Connected to placement localhost:6050" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime.actors.placement.manager.connector.static type=log ver=1.17.6
+time="2026-05-14T15:51:43.9194234+02:00" level=info msg="Connected to placement service: localhost:6050" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime.actors.placement.loops.placement type=log ver=1.17.6
+time="2026-05-14T15:51:43.9194234+02:00" level=info msg="Reporting initial host to placement service with initial types []" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime.actors.placement.loops.placement type=log ver=1.17.6
+time="2026-05-14T15:51:43.9645427+02:00" level=info msg="Dissemination complete for version 0, unlocking disseminator default/OrderService" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime.actors.placement.loops.disseminator type=log ver=1.17.6
+time="2026-05-14T15:51:44.0585604+02:00" level=info msg="Application configuration loaded" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime type=log ver=1.17.6
+time="2026-05-14T15:51:44.0676098+02:00" level=info msg="dapr initialized. Status: Running. Init Elapsed 2197ms" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime type=log ver=1.17.6
+time="2026-05-14T15:51:44.0681253+02:00" level=info msg="Scheduler stream connected for [JOB_TARGET_TYPE_JOB]" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime.scheduler.cluster type=log ver=1.17.6
+time="2026-05-14T15:51:44.0686539+02:00" level=info msg="Scheduler stream connected for [JOB_TARGET_TYPE_JOB]" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime.scheduler.cluster type=log ver=1.17.6
+time="2026-05-14T15:51:44.0681253+02:00" level=info msg="Scheduler stream connected for [JOB_TARGET_TYPE_JOB]" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime.scheduler.cluster type=log ver=1.17.6
+time="2026-05-14T15:51:51.431564+02:00" level=info msg="Received signal 'interrupt'; beginning shutdown" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.signals type=log ver=1.17.6
+time="2026-05-14T15:51:51.431564+02:00" level=info msg="backend stopping..." app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.wfengine.durabletask.backend type=log ver=1.17.6
+time="2026-05-14T15:51:51.431564+02:00" level=info msg="workers stopping and draining..." app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.wfengine.durabletask.backend type=log ver=1.17.6
+time="2026-05-14T15:51:51.4320788+02:00" level=warning msg="Error receiving from stream: rpc error: code = Canceled desc = context canceled" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime.actors.placement.loops.stream type=log ver=1.17.6
+time="2026-05-14T15:51:51.4320788+02:00" level=info msg="orchestration-processor: worker stopped" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.wfengine.durabletask.backend type=log ver=1.17.6
+time="2026-05-14T15:51:51.431564+02:00" level=info msg="Placement client shutting down" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime.actors.placement type=log ver=1.17.6
+time="2026-05-14T15:51:51.4320788+02:00" level=info msg="Closing connection to placement: rpc error: code = Canceled desc = context canceled" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime.actors.placement.loops.stream type=log ver=1.17.6
+time="2026-05-14T15:51:51.4320788+02:00" level=info msg="Actor runtime shutting down" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime.actor type=log ver=1.17.6
+time="2026-05-14T15:51:51.4320788+02:00" level=info msg="activity-processor: worker stopped" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.wfengine.durabletask.backend type=log ver=1.17.6
+time="2026-05-14T15:51:51.4320788+02:00" level=info msg="finished stopping and draining workers!" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.wfengine.durabletask.backend type=log ver=1.17.6
+time="2026-05-14T15:51:51.4320788+02:00" level=info msg="Workflow engine stopped" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime.wfengine type=log ver=1.17.6
+time="2026-05-14T15:51:51.4320788+02:00" level=info msg="Actor runtime stopped" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime.actor type=log ver=1.17.6
+time="2026-05-14T15:51:51.4320788+02:00" level=info msg="Scheduler stream disconnected" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime.scheduler.cluster type=log ver=1.17.6
+time="2026-05-14T15:51:51.4320788+02:00" level=info msg="Scheduler stream disconnected" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime.scheduler.cluster type=log ver=1.17.6
+time="2026-05-14T15:51:51.432503+02:00" level=info msg="Scheduler stream disconnected" app_id=OrderService instance=DESKTOP-B26FMRA scope=dapr.runtime.scheduler.cluster type=log ver=1.17.6
+
+termination signal received: shutting down
+Exited Dapr successfully
+Exited App successfully

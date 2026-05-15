@@ -3,8 +3,8 @@ kind: Component
 metadata:
   name: pubsub
 spec:
-  type: pubsub.postgresql
+  type: pubsub.redis
   version: v1
   metadata:
-    - name: connectionString
-      value: "host=localhost user=postgres password=postgres dbname=dapr"
+    - name: redisHost
+      value: localhost:6379

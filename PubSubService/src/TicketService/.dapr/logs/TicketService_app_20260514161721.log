@@ -1,0 +1,38 @@
+== APP - TicketService == info: Microsoft.Hosting.Lifetime[14]
+== APP - TicketService ==       Now listening on: http://0.0.0.0:8082
+== APP - TicketService == info: Microsoft.Hosting.Lifetime[0]
+== APP - TicketService ==       Application started. Press Ctrl+C to shut down.
+== APP - TicketService == info: Microsoft.Hosting.Lifetime[0]
+== APP - TicketService ==       Hosting environment: Production
+== APP - TicketService == info: Microsoft.Hosting.Lifetime[0]
+== APP - TicketService ==       Content root path: C:\Users\Fairy LIama\.code\smagenafoel-microservice\PubSubService\src\TicketService
+== APP - TicketService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - TicketService ==       Request starting HTTP/1.1 GET http://127.0.0.1:8082/dapr/config - application/json -
+== APP - TicketService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - TicketService ==       Request finished HTTP/1.1 GET http://127.0.0.1:8082/dapr/config - 404 0 - 71.1546ms
+== APP - TicketService == info: Microsoft.AspNetCore.Hosting.Diagnostics[16]
+== APP - TicketService ==       Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://127.0.0.1:8082/dapr/config, Response status code: 404
+== APP - TicketService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - TicketService ==       Request starting HTTP/1.1 GET http://127.0.0.1:8082/dapr/subscribe - application/json -
+== APP - TicketService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - TicketService ==       Executing endpoint 'HTTP: GET /dapr/subscribe => Subscribe'
+== APP - TicketService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - TicketService ==       Executed endpoint 'HTTP: GET /dapr/subscribe => Subscribe'
+== APP - TicketService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - TicketService ==       Request finished HTTP/1.1 GET http://127.0.0.1:8082/dapr/subscribe - 200 - application/json;+charset=utf-8 5.1199ms
+== APP - TicketService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - TicketService ==       Request starting HTTP/1.1 POST http://127.0.0.1:8082/tickets - application/cloudevents+json 456
+== APP - TicketService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - TicketService ==       Executing endpoint 'HTTP: POST /tickets'
+== APP - TicketService == [INVENTORY] 📦 Received ticket: 5 (amount: $6) - 2026-05-14 16.17.44
+== APP - TicketService == [INVENTORY] ✅ Ticket 5 processed successfully
+== APP - TicketService == info: Microsoft.AspNetCore.Http.Result.OkObjectResult[1]
+== APP - TicketService ==       Setting HTTP status code 200.
+== APP - TicketService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - TicketService ==       Executed endpoint 'HTTP: POST /tickets'
+== APP - TicketService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - TicketService ==       Request finished HTTP/1.1 POST http://127.0.0.1:8082/tickets - 200 0 - 42.2233ms
+== APP - TicketService == info: Microsoft.Hosting.Lifetime[0]
+
+termination signal received: shutting down
+== APP - TicketService ==       Application is shutting down...

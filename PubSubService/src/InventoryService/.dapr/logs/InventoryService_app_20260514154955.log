@@ -1,0 +1,27 @@
+== APP - InventoryService == Using launch settings from C:\Users\Fairy LIama\.code\smagenafoel-microservice\PubSubService\src\InventoryService\Properties\launchSettings.json...
+== APP - InventoryService == info: Microsoft.Hosting.Lifetime[14]
+== APP - InventoryService ==       Now listening on: http://0.0.0.0:8081
+== APP - InventoryService == info: Microsoft.Hosting.Lifetime[0]
+== APP - InventoryService ==       Application started. Press Ctrl+C to shut down.
+== APP - InventoryService == info: Microsoft.Hosting.Lifetime[0]
+== APP - InventoryService ==       Hosting environment: Development
+== APP - InventoryService == info: Microsoft.Hosting.Lifetime[0]
+== APP - InventoryService ==       Content root path: C:\Users\Fairy LIama\.code\smagenafoel-microservice\PubSubService\src\InventoryService
+== APP - InventoryService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - InventoryService ==       Request starting HTTP/1.1 GET http://127.0.0.1:8081/dapr/config - application/json -
+== APP - InventoryService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - InventoryService ==       Request finished HTTP/1.1 GET http://127.0.0.1:8081/dapr/config - 404 0 - 73.7104ms
+== APP - InventoryService == info: Microsoft.AspNetCore.Hosting.Diagnostics[16]
+== APP - InventoryService ==       Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://127.0.0.1:8081/dapr/config, Response status code: 404
+== APP - InventoryService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - InventoryService ==       Request starting HTTP/1.1 GET http://127.0.0.1:8081/dapr/subscribe - application/json -
+== APP - InventoryService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - InventoryService ==       Executing endpoint 'HTTP: GET /dapr/subscribe'
+== APP - InventoryService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - InventoryService ==       Executed endpoint 'HTTP: GET /dapr/subscribe'
+== APP - InventoryService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - InventoryService ==       Request finished HTTP/1.1 GET http://127.0.0.1:8081/dapr/subscribe - 200 - application/json;+charset=utf-8 4.8848ms
+== APP - InventoryService == info: Microsoft.Hosting.Lifetime[0]
+
+termination signal received: shutting down
+== APP - InventoryService ==       Application is shutting down...
