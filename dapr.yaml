@@ -1,0 +1,33 @@
+version: 1
+common:
+  resourcesPath: ./PubSubService/.dapr/components/
+apps:
+  - appID: InventoryService
+    appDirPath: ./PubSubService/src/InventoryService/
+    appPort: 8081
+    command: ["dotnet", "run"]
+
+  - appID: OrderService
+    appDirPath: ./PubSubService/src/OrderService/
+    appPort: 8080
+    command: ["dotnet", "run"]
+
+  - appID: TicketService
+    appDirPath: ./PubSubService/src/TicketService/
+    appPort: 8082
+    command: ["dotnet", "run"]
+
+  - appID: TicketOrderService
+    appDirPath: ./PubSubService/src/TicketOrderService/
+    appPort: 8083
+    command: ["dotnet", "run"]
+
+  - appID: AuthenticationService
+    appDirPath: ./AuthenticationService
+    appPort: 8084
+    command: ["dotnet", "run"]
+
+  - appID: BlazorLogin
+    appDirPath: ./BlazorLogin
+    appPort: 8085
+    command: ["dotnet", "run"]

@@ -9,7 +9,6 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 
 var builder = WebApplication.CreateBuilder(args);
-Console.WriteLine(builder.Configuration.GetConnectionString("DefaultConnection"));
 
 builder.Services
     .AddControllers()
@@ -77,4 +76,4 @@ app.MapControllerRoute(
     pattern: "{controller}/{Action=Index}/{id?}"
 );
 
-app.Run();
+app.Run("http://0.0.0.0:8084");

@@ -13,7 +13,7 @@ using Microsoft.IdentityModel.Tokens;
 namespace AuthenticationService.Services;
 
 // Authentication service implementering
-public class AuthService(ApplicationDbContext dbContext) : IAuth
+public class AuthService(ApplicationDbContext dbContext, IConfiguration config) : IAuth
 {
     private readonly ApplicationDbContext _dbContext = dbContext;
 
@@ -59,9 +59,9 @@ public class AuthService(ApplicationDbContext dbContext) : IAuth
         }
 
         // Lav JWT data ud fra environment variabler
-        var jwtKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Environment.GetEnvironmentVariable("Jwt__Key")!));
-        var jwtIssuer = Environment.GetEnvironmentVariable("Jwt__Issuer")!;
-        var jwtAudience = Environment.GetEnvironmentVariable("Jwt__Audience")!;
+        var jwtKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(config["Jwt:Key"] ?? Environment.GetEnvironmentVariable("Jwt__Key")!));
+        var jwtIssuer = Environment.GetEnvironmentVariable(config["Jwt:Issuer"] ?? "Jwt__Issuer")!;
+        var jwtAudience = Environment.GetEnvironmentVariable(config["Jwt:Audience"] ?? "Jwt__Audience")!;
         var credentials = new SigningCredentials(jwtKey, SecurityAlgorithms.HmacSha256);
 
         // Lav claims ud fra den verificerede bruger
