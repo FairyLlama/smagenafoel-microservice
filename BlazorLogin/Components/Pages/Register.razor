@@ -1,0 +1,100 @@
+@page "/register"
+@using System.ComponentModel.DataAnnotations
+@using System.Net
+@using BlazorLogin.Models.Enums
+@rendermode InteractiveServer
+@inject IAuthService AuthService
+
+<PageTitle>Register</PageTitle>
+
+<div class="page-container">
+    <h1>Registrér ny bruger</h1>
+
+    <div class="input-container">
+        <EditForm FormName="registerForm" Model="@_model" OnValidSubmit="RegisterUser">
+            <DataAnnotationsValidator />
+            <div class="custom-input">
+                <label for="name-input">
+                    Navn:
+                </label>
+                <input id="name-input" @bind="_model.Name" placeholder="Navn"/>
+            </div>
+
+            <div class="custom-input">
+                <label for="email-input">
+                    E-mail:
+                </label>
+                <input id="email-input" @bind="_model.Email" placeholder="Email"/>
+            </div>
+
+            <div class="custom-input">
+                <label for="password-input">
+                    Password:
+                </label>
+                <input id="password-input" type="password" @bind="_model.Password" placeholder="Password"/>
+            </div>
+
+            <div class="custom-input">
+                <label for="language-input">
+                    Sprog:
+                </label>
+                <input id="language-input" @bind="_model.Language" placeholder="Sprog"/>
+            </div>
+
+            <div class="custom-input">
+                <label for="age-input">
+                    Alder:
+                </label>
+                <input id="age-input" type="number" @bind="_model.Age" placeholder="Alder"/>
+            </div>
+
+            <div class="custom-input">
+                <label for="phone-input">
+                    Telefon:
+                </label>
+                <input id="phone-input" type="number" @bind="_model.Phone" placeholder="Telefon"/>
+            </div>
+
+            <button type="submit">Registrér</button>
+        </EditForm>
+    </div>
+</div>
+
+@code{
+    private readonly RegistrationModel _model = new();
+
+    // Hjælpermetode til registreringsformen
+    private async Task RegisterUser()
+    {
+        // Tjek brugers alder og giv rolle
+        var role = _model.Age > 18 ? nameof(UserRoles.AdultCustomer) : nameof(UserRoles.Costumer);
+
+        // Cast intern model til DTO og registrer bruger gennem service injection
+        var responseStatus = await AuthService.RegisterUserAsync(new()
+        {
+            Name = _model.Name,
+            Email = _model.Email,
+            Password = _model.Password,
+            Language = _model.Language,
+            Age = _model.Age,
+            Phone = _model.Phone,
+            Role = role,
+        });
+
+        if (responseStatus != HttpStatusCode.Accepted)
+        {
+            Console.WriteLine($"{responseStatus}: Could not create user");
+        }
+    }
+
+    // Intern model til EditForm
+    private class RegistrationModel
+    {
+        [Required] public string Name { get; set; } = string.Empty;
+        [Required, EmailAddress] public string Email { get; set; } = string.Empty;
+        [Required] public string Password { get; set; } = string.Empty;
+        public string Language { get; set; } = string.Empty;
+        public int Age { get; set; }
+        public string Phone { get; set; } = string.Empty;
+    }
+}

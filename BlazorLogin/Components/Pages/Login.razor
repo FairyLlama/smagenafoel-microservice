@@ -1,0 +1,55 @@
+@page "/login"
+@rendermode InteractiveServer
+@using System.ComponentModel.DataAnnotations
+@inject ProtectedLocalStorage LocalStorage
+@inject IAuthService AuthService
+
+<PageTitle>Login</PageTitle>
+
+<div class="page-container">
+    <h1>Log ind</h1>
+
+    <div class="input-container">
+        <EditForm FormName="loginForm" Model="@_model" OnValidSubmit="LoginUser">
+            <DataAnnotationsValidator/>
+            <div class="custom-input">
+                <label for="email-input">Email:</label>
+                <input id="email-input" @bind="_model.Email" placeholder="Email">
+            </div>
+
+            <div class="custom-input">
+                <label for="pwd-input">Password:</label>
+                <input id="pwd-input" type="password" @bind="_model.Password" placeholder="Password">
+            </div>
+            <button type="submit">Log ind</button>
+        </EditForm>
+    </div>
+</div>
+
+@code{
+    private readonly LoginModel _model = new();
+
+    // Hjælpermetode til loginformen
+    private async Task LoginUser()
+    {
+        // Cast intern DTO og kør den injectede service til login
+        var response = await AuthService.LoginUserAsync(new(_model.Email, _model.Password));
+
+        // Hvis statuskoden ikke er en success afbryd med fejlbesked
+        if (response.StatusCode is < 200 or > 299)
+        {
+            Console.WriteLine("Problem logging in user");
+            return;
+        }
+
+        // Brug ProtectedLocalStorage til at gemme den genererede Authentication Token (JWT)
+        await LocalStorage.SetAsync("AuthToken", response.Jwt);
+    }
+
+    // Intern model til log ind
+    private class LoginModel
+    {
+        [Required, EmailAddress] public string Email { get; set; } = string.Empty;
+        [Required] public string Password { get; set; } = string.Empty;
+    }
+}

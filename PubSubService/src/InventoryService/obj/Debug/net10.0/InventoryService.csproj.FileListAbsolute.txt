@@ -1,39 +1,39 @@
-C:\Users\Fairy LIama\.code\smagenafoel-microservice\PubSubService\src\InventoryService\bin\Debug\net10.0\InventoryService.staticwebassets.endpoints.json
-C:\Users\Fairy LIama\.code\smagenafoel-microservice\PubSubService\src\InventoryService\bin\Debug\net10.0\InventoryService.exe
-C:\Users\Fairy LIama\.code\smagenafoel-microservice\PubSubService\src\InventoryService\bin\Debug\net10.0\InventoryService.deps.json
-C:\Users\Fairy LIama\.code\smagenafoel-microservice\PubSubService\src\InventoryService\bin\Debug\net10.0\InventoryService.runtimeconfig.json
-C:\Users\Fairy LIama\.code\smagenafoel-microservice\PubSubService\src\InventoryService\bin\Debug\net10.0\InventoryService.dll
-C:\Users\Fairy LIama\.code\smagenafoel-microservice\PubSubService\src\InventoryService\bin\Debug\net10.0\InventoryService.pdb
-C:\Users\Fairy LIama\.code\smagenafoel-microservice\PubSubService\src\InventoryService\bin\Debug\net10.0\Dapr.AspNetCore.dll
-C:\Users\Fairy LIama\.code\smagenafoel-microservice\PubSubService\src\InventoryService\bin\Debug\net10.0\Dapr.Client.dll
-C:\Users\Fairy LIama\.code\smagenafoel-microservice\PubSubService\src\InventoryService\bin\Debug\net10.0\Dapr.Common.dll
-C:\Users\Fairy LIama\.code\smagenafoel-microservice\PubSubService\src\InventoryService\bin\Debug\net10.0\Dapr.Protos.dll
-C:\Users\Fairy LIama\.code\smagenafoel-microservice\PubSubService\src\InventoryService\bin\Debug\net10.0\Google.Api.CommonProtos.dll
-C:\Users\Fairy LIama\.code\smagenafoel-microservice\PubSubService\src\InventoryService\bin\Debug\net10.0\Google.Protobuf.dll
-C:\Users\Fairy LIama\.code\smagenafoel-microservice\PubSubService\src\InventoryService\bin\Debug\net10.0\Grpc.Core.Api.dll
-C:\Users\Fairy LIama\.code\smagenafoel-microservice\PubSubService\src\InventoryService\bin\Debug\net10.0\Grpc.Net.Client.dll
-C:\Users\Fairy LIama\.code\smagenafoel-microservice\PubSubService\src\InventoryService\bin\Debug\net10.0\Grpc.Net.Common.dll
-C:\Users\Fairy LIama\.code\smagenafoel-microservice\PubSubService\src\InventoryService\obj\Debug\net10.0\InventoryService.csproj.AssemblyReference.cache
-C:\Users\Fairy LIama\.code\smagenafoel-microservice\PubSubService\src\InventoryService\obj\Debug\net10.0\rpswa.dswa.cache.json
-C:\Users\Fairy LIama\.code\smagenafoel-microservice\PubSubService\src\InventoryService\obj\Debug\net10.0\InventoryService.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Fairy LIama\.code\smagenafoel-microservice\PubSubService\src\InventoryService\obj\Debug\net10.0\InventoryService.AssemblyInfoInputs.cache
-C:\Users\Fairy LIama\.code\smagenafoel-microservice\PubSubService\src\InventoryService\obj\Debug\net10.0\InventoryService.AssemblyInfo.cs
-C:\Users\Fairy LIama\.code\smagenafoel-microservice\PubSubService\src\InventoryService\obj\Debug\net10.0\InventoryService.csproj.CoreCompileInputs.cache
-C:\Users\Fairy LIama\.code\smagenafoel-microservice\PubSubService\src\InventoryService\obj\Debug\net10.0\InventoryService.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Fairy LIama\.code\smagenafoel-microservice\PubSubService\src\InventoryService\obj\Debug\net10.0\InventoryService.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Fairy LIama\.code\smagenafoel-microservice\PubSubService\src\InventoryService\obj\Debug\net10.0\InventoryService.sourcelink.json
-C:\Users\Fairy LIama\.code\smagenafoel-microservice\PubSubService\src\InventoryService\obj\Debug\net10.0\rjimswa.dswa.cache.json
-C:\Users\Fairy LIama\.code\smagenafoel-microservice\PubSubService\src\InventoryService\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
-C:\Users\Fairy LIama\.code\smagenafoel-microservice\PubSubService\src\InventoryService\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
-C:\Users\Fairy LIama\.code\smagenafoel-microservice\PubSubService\src\InventoryService\obj\Debug\net10.0\scopedcss\bundle\InventoryService.styles.css
-C:\Users\Fairy LIama\.code\smagenafoel-microservice\PubSubService\src\InventoryService\obj\Debug\net10.0\staticwebassets.build.json
-C:\Users\Fairy LIama\.code\smagenafoel-microservice\PubSubService\src\InventoryService\obj\Debug\net10.0\staticwebassets.build.json.cache
-C:\Users\Fairy LIama\.code\smagenafoel-microservice\PubSubService\src\InventoryService\obj\Debug\net10.0\staticwebassets.development.json
-C:\Users\Fairy LIama\.code\smagenafoel-microservice\PubSubService\src\InventoryService\obj\Debug\net10.0\staticwebassets.build.endpoints.json
-C:\Users\Fairy LIama\.code\smagenafoel-microservice\PubSubService\src\InventoryService\obj\Debug\net10.0\swae.build.ex.cache
-C:\Users\Fairy LIama\.code\smagenafoel-microservice\PubSubService\src\InventoryService\obj\Debug\net10.0\Inventor.248F7646.Up2Date
-C:\Users\Fairy LIama\.code\smagenafoel-microservice\PubSubService\src\InventoryService\obj\Debug\net10.0\InventoryService.dll
-C:\Users\Fairy LIama\.code\smagenafoel-microservice\PubSubService\src\InventoryService\obj\Debug\net10.0\refint\InventoryService.dll
-C:\Users\Fairy LIama\.code\smagenafoel-microservice\PubSubService\src\InventoryService\obj\Debug\net10.0\InventoryService.pdb
-C:\Users\Fairy LIama\.code\smagenafoel-microservice\PubSubService\src\InventoryService\obj\Debug\net10.0\InventoryService.genruntimeconfig.cache
-C:\Users\Fairy LIama\.code\smagenafoel-microservice\PubSubService\src\InventoryService\obj\Debug\net10.0\ref\InventoryService.dll
+/home/nick/Documents/projects/smagenafoel-microservice/PubSubService/src/InventoryService/bin/Debug/net10.0/InventoryService.staticwebassets.endpoints.json
+/home/nick/Documents/projects/smagenafoel-microservice/PubSubService/src/InventoryService/bin/Debug/net10.0/InventoryService
+/home/nick/Documents/projects/smagenafoel-microservice/PubSubService/src/InventoryService/bin/Debug/net10.0/InventoryService.deps.json
+/home/nick/Documents/projects/smagenafoel-microservice/PubSubService/src/InventoryService/bin/Debug/net10.0/InventoryService.runtimeconfig.json
+/home/nick/Documents/projects/smagenafoel-microservice/PubSubService/src/InventoryService/bin/Debug/net10.0/InventoryService.dll
+/home/nick/Documents/projects/smagenafoel-microservice/PubSubService/src/InventoryService/bin/Debug/net10.0/InventoryService.pdb
+/home/nick/Documents/projects/smagenafoel-microservice/PubSubService/src/InventoryService/bin/Debug/net10.0/Dapr.AspNetCore.dll
+/home/nick/Documents/projects/smagenafoel-microservice/PubSubService/src/InventoryService/bin/Debug/net10.0/Dapr.Client.dll
+/home/nick/Documents/projects/smagenafoel-microservice/PubSubService/src/InventoryService/bin/Debug/net10.0/Dapr.Common.dll
+/home/nick/Documents/projects/smagenafoel-microservice/PubSubService/src/InventoryService/bin/Debug/net10.0/Dapr.Protos.dll
+/home/nick/Documents/projects/smagenafoel-microservice/PubSubService/src/InventoryService/bin/Debug/net10.0/Google.Api.CommonProtos.dll
+/home/nick/Documents/projects/smagenafoel-microservice/PubSubService/src/InventoryService/bin/Debug/net10.0/Google.Protobuf.dll
+/home/nick/Documents/projects/smagenafoel-microservice/PubSubService/src/InventoryService/bin/Debug/net10.0/Grpc.Core.Api.dll
+/home/nick/Documents/projects/smagenafoel-microservice/PubSubService/src/InventoryService/bin/Debug/net10.0/Grpc.Net.Client.dll
+/home/nick/Documents/projects/smagenafoel-microservice/PubSubService/src/InventoryService/bin/Debug/net10.0/Grpc.Net.Common.dll
+/home/nick/Documents/projects/smagenafoel-microservice/PubSubService/src/InventoryService/obj/Debug/net10.0/InventoryService.csproj.AssemblyReference.cache
+/home/nick/Documents/projects/smagenafoel-microservice/PubSubService/src/InventoryService/obj/Debug/net10.0/rpswa.dswa.cache.json
+/home/nick/Documents/projects/smagenafoel-microservice/PubSubService/src/InventoryService/obj/Debug/net10.0/InventoryService.GeneratedMSBuildEditorConfig.editorconfig
+/home/nick/Documents/projects/smagenafoel-microservice/PubSubService/src/InventoryService/obj/Debug/net10.0/InventoryService.AssemblyInfoInputs.cache
+/home/nick/Documents/projects/smagenafoel-microservice/PubSubService/src/InventoryService/obj/Debug/net10.0/InventoryService.AssemblyInfo.cs
+/home/nick/Documents/projects/smagenafoel-microservice/PubSubService/src/InventoryService/obj/Debug/net10.0/InventoryService.csproj.CoreCompileInputs.cache
+/home/nick/Documents/projects/smagenafoel-microservice/PubSubService/src/InventoryService/obj/Debug/net10.0/InventoryService.MvcApplicationPartsAssemblyInfo.cs
+/home/nick/Documents/projects/smagenafoel-microservice/PubSubService/src/InventoryService/obj/Debug/net10.0/InventoryService.MvcApplicationPartsAssemblyInfo.cache
+/home/nick/Documents/projects/smagenafoel-microservice/PubSubService/src/InventoryService/obj/Debug/net10.0/InventoryService.sourcelink.json
+/home/nick/Documents/projects/smagenafoel-microservice/PubSubService/src/InventoryService/obj/Debug/net10.0/rjimswa.dswa.cache.json
+/home/nick/Documents/projects/smagenafoel-microservice/PubSubService/src/InventoryService/obj/Debug/net10.0/rjsmrazor.dswa.cache.json
+/home/nick/Documents/projects/smagenafoel-microservice/PubSubService/src/InventoryService/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json
+/home/nick/Documents/projects/smagenafoel-microservice/PubSubService/src/InventoryService/obj/Debug/net10.0/scopedcss/bundle/InventoryService.styles.css
+/home/nick/Documents/projects/smagenafoel-microservice/PubSubService/src/InventoryService/obj/Debug/net10.0/staticwebassets.build.json
+/home/nick/Documents/projects/smagenafoel-microservice/PubSubService/src/InventoryService/obj/Debug/net10.0/staticwebassets.build.json.cache
+/home/nick/Documents/projects/smagenafoel-microservice/PubSubService/src/InventoryService/obj/Debug/net10.0/staticwebassets.development.json
+/home/nick/Documents/projects/smagenafoel-microservice/PubSubService/src/InventoryService/obj/Debug/net10.0/staticwebassets.build.endpoints.json
+/home/nick/Documents/projects/smagenafoel-microservice/PubSubService/src/InventoryService/obj/Debug/net10.0/swae.build.ex.cache
+/home/nick/Documents/projects/smagenafoel-microservice/PubSubService/src/InventoryService/obj/Debug/net10.0/Inventor.248F7646.Up2Date
+/home/nick/Documents/projects/smagenafoel-microservice/PubSubService/src/InventoryService/obj/Debug/net10.0/InventoryService.dll
+/home/nick/Documents/projects/smagenafoel-microservice/PubSubService/src/InventoryService/obj/Debug/net10.0/refint/InventoryService.dll
+/home/nick/Documents/projects/smagenafoel-microservice/PubSubService/src/InventoryService/obj/Debug/net10.0/InventoryService.pdb
+/home/nick/Documents/projects/smagenafoel-microservice/PubSubService/src/InventoryService/obj/Debug/net10.0/InventoryService.genruntimeconfig.cache
+/home/nick/Documents/projects/smagenafoel-microservice/PubSubService/src/InventoryService/obj/Debug/net10.0/ref/InventoryService.dll

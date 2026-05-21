@@ -3,10 +3,17 @@ kind: Component
 metadata:
   name: statestore
 spec:
-  type: state.redis
+  type: state.postgresql
   version: v1
   metadata:
-    - name: redisHost
-      value: "localhost:6379"
-    - name: redisPassword
-      value: ""
+    - name: connectionString
+      value: "host=localhost user=postgres password=secret dbname=oel_db port=5432"
+
+# spec:
+#   type: state.redis
+#   version: v1
+#   metadata:
+#     - name: redisHost
+#       value: "localhost:6379"
+#     - name: redisPassword
+#       value: ""

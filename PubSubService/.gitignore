@@ -1,1 +1,3 @@
-*/**/.dapr/logs
+*/**/.dapr/logs/
+*/**/bin/
+*/**/obj/
